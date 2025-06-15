@@ -1,0 +1,329 @@
+# Station, Metric, LSL, USL
+DDMI Cal,Power(dBm),-2.9,4
+DDMI Cal,Bias_Setpoint,20,1001
+DDMI Cal,Tops_Setpoint,20,2000
+DDMI Cal,RxP1,,
+DDMI Cal,DD_RxP1,,
+DDMI Cal,dRxP1,-0.5,0.5
+DDMI Cal,Rxp_Offset,-200,100
+DDMI Cal,Rxp_Slope,5,25
+DDMI Cal,DDMI_TxP,,4.5
+DDMI Cal,dTxP,-0.5,0.5
+DDMI Cal,Txp_Offset,-10000,10000
+DDMI Cal,Txp_Slope,-1000,1000
+DDMI Cal,Tops_room,0,3
+DDMI Cal,Tops_off,0,3
+DDMI Cal,I2C_Vcc,3.234,3.366
+DDMI Cal,DDMI_Vcc,,
+DDMI Cal,dVcc(%),-0.033,0.033
+DDMI Cal,Vcc_Offset,-10000,10000
+DDMI Cal,Vcc_Slope,-1000,1000
+DDMI Cal,DDMI_Temp,40,60
+DDMI Cal,Tx_Disable(dBm),-60,-15
+DDMI Cal,Tops_Mid,0,3
+TP2TP3 RT,Temp,30,40
+TP2TP3 RT,TXP,-0.5,3.7
+TP2TP3 RT,ER,4,7
+TP2TP3 RT,TX Disable,-15,0
+TP2TP3 RT,TDECQ,0,2.8
+TP2TP3 RT,RLM,0.92,1
+TP2TP3 RT,OMA,-0.2,4.2
+TP2TP3 RT,OMA_TDECQ,-1.5,0
+TP2TP3 RT,SMSR,0,35
+TP2TP3 RT,SEN,-20,-6
+TP2TP3 RT,OMA_SEN,-20,-6
+TP2TP3 RT,LOSA,-15,-11
+TP2TP3 RT,LOSD,-14,-10
+TP2TP3 RT,LOSH,0.5,5
+TP2TP3 RT,dRXP,-2.5,2.5
+TP2TP3 RT,dTXP,-2.5,2.5
+TP2TP3 RT,dVCC,-0.1,0.1
+TP2TP3 RT,dTemp,-2.5,2.5
+TP2TP3 RT,DDMI Temp,30,40
+TP2TP3 RT,Mode hopping,-1,1
+TP2TP3 RT,Overshoot,0,15
+TP2TP3 RT,Undershoot,0,15
+TP2TP3 RT,DDMI Bias,30,400
+TP2TP3 RT,TDECQ_4.8E-6,0,4.3
+TP2TP3 RT,Total_TXP,-9000,9000
+TP2TP3 RT,TempOffset,-20,-6
+TP2TP3 LT,Temp,-4,0
+TP2TP3 LT,TXP,-0.5,3.7
+TP2TP3 LT,ER,4,7
+TP2TP3 LT,TX Disable,-15,0
+TP2TP3 LT,TDECQ,0,2.8
+TP2TP3 LT,RLM,0,0.92
+TP2TP3 LT,OMA,-0.2,4.2
+TP2TP3 LT,OMA_TDECQ,-1.5,0
+TP2TP3 LT,SMSR,0,35
+TP2TP3 LT,SEN,-20,-6
+TP2TP3 LT,OMA_SEN,-20,-6
+TP2TP3 LT,LOSA,-15,-11
+TP2TP3 LT,LOSD,-14,-10
+TP2TP3 LT,LOSH,0.5,5
+TP2TP3 LT,dRXP,-2.5,2.5
+TP2TP3 LT,dTXP,-2.5,2.5
+TP2TP3 LT,dVCC,-0.1,0.1
+TP2TP3 LT,dTemp,-2.5,2.5
+TP2TP3 LT,DDMI Temp,-4,0
+TP2TP3 LT,Mode hopping,-1,1
+TP2TP3 LT,Overshoot,0,15
+TP2TP3 LT,Undershoot,0,15
+TP2TP3 LT,DDMI Bias,30,400
+TP2TP3 LT,TDECQ_4.8E-6,0,4.3
+TP2TP3 LT,Total_TXP,-9000,9000
+TP2TP3 LT,TempOffset,-5,5
+TP2TP3 HT,Temp,70,74
+TP2TP3 HT,TXP,-0.5,3.7
+TP2TP3 HT,ER,4,7
+TP2TP3 HT,TX Disable,-15,0
+TP2TP3 HT,TDECQ,0,2.8
+TP2TP3 HT,RLM,0,0.92
+TP2TP3 HT,OMA,-0.2,4.2
+TP2TP3 HT,OMA_TDECQ,-1.5,0
+TP2TP3 HT,SMSR,0,35
+TP2TP3 HT,SEN,-20,-6
+TP2TP3 HT,OMA_SEN,-20,-6
+TP2TP3 HT,LOSA,-15,-11
+TP2TP3 HT,LOSD,-14,-10
+TP2TP3 HT,LOSH,0.5,5
+TP2TP3 HT,dRXP,-2.5,2.5
+TP2TP3 HT,dTXP,-2.5,2.5
+TP2TP3 HT,dVCC,-0.1,0.1
+TP2TP3 HT,dTemp,-2.5,2.5
+TP2TP3 HT,DDMI Temp,70,74
+TP2TP3 HT,Mode hopping,-1,1
+TP2TP3 HT,Overshoot,0,15
+TP2TP3 HT,Undershoot,0,15
+TP2TP3 HT,DDMI Bias,30,400
+TP2TP3 HT,TDECQ_4.8E-6,0,4.3
+TP2TP3 HT,Total_TXP,-9000,9000
+TP2TP3 HT,TempOffset,-10,2
+Burn-in,Board_VCC,3.2,3.4
+Burn-in,DDMI_VCC,3.2,3.4
+Burn-in,Board_DDM_Dif_VCC,-0.033,0.033
+Burn-in,ICC,0,4393
+Burn-in,DDMI_TxP,-2.4,4
+Burn-in,DDMI_RxP,-2.4,4
+Burn-in,DDMI_TxP-RxP,-100,100
+Burn-in,DDMI_Ibias,20,100
+Burn-in,DDMI_Temp,65,75
+Burn-in,DDMI_TxP_Dif,-1,1
+Burn-in,DDMI_RxP_Dif,-1,1
+Burn-in,DDMI_Ibias_Dif,-100,100
+Burn-in,Sample_DDMI_VCC_Dif,0,0.066
+Burn-in,Sample_DDMI_Temp_Dif,0,1
+3T Test,RTTestTemp,30,40
+3T Test,RTBER1,0,1e-06
+3T Test,RTBER2,0,1e-06
+3T Test,RTBER3,0,1e-06
+3T Test,RTBER4,0,1e-06
+3T Test,RTBER5,0,1e-06
+3T Test,RTBER6,0,1e-06
+3T Test,RTdRXP,-2.5,2.5
+3T Test,LTTestTemp,-10,0
+3T Test,LTBER1,0,1e-06
+3T Test,LTBER2,0,1e-06
+3T Test,LTBER3,0,1e-06
+3T Test,LTBER4,0,1e-06
+3T Test,LTBER5,0,1e-06
+3T Test,LTBER6,0,1e-06
+3T Test,LTdRXP,-2.5,2.5
+3T Test,HTTestTemp,70,80
+3T Test,HTBER1,0,1e-06
+3T Test,HTBER2,0,1e-06
+3T Test,HTBER3,0,1e-06
+3T Test,HTBER4,0,1e-06
+3T Test,HTBER5,0,1e-06
+3T Test,HTBER6,0,1e-06
+3T Test,HTdRXP,-2.5,2.5
+TCBER,RTTestTemp,30,40
+TCBER,RTOrder,0,6
+TCBER,PretestandRTBER,0,1e-06
+TCBER,dOrder,0,2
+TCBER,LTTestTemp,-10,0
+TCBER,LTOrder,0,6
+TCBER,PretestandLTBER,0,1e-06
+TCBER,dOrder,0,2
+TCBER,HTTestTemp,70,80
+TCBER,HTOrder,0,6
+TCBER,PretestandHTBER,0,1e-06
+TCBER,dOrder,0,2
+Final Test,Power(dBm),-2.9,4
+Final Test,Outer_OMA(dB),-0.2,4.2
+Final Test,Outer_ER(dB),4,7
+Final Test,TDECQ(dB),0,3
+Final Test,OMA_TDECQ(dB),-2.2,10
+Final Test,RLM,0.92,10
+Final Test,Ceq(dB),-1,1
+Final Test,TDECQ_Ceq(dB),-10,10
+Final Test,Rise_Time(ps),0,100
+Final Test,Fall_Time(ps),0,100
+Final Test,Overshoot,0.1,15
+Final Test,Undershoot,0.1,15
+Final Test,TDECQ_4.8E-6,0.1,4.3
+Final Test,Bias_Setpoint,20,1001
+Final Test,Tops_Setpoint,20,2000
+Final Test,DDMI_Bias(mA),30,400
+Final Test,Tap2,,
+Final Test,Tap3,,
+Final Test,Low_Eye,,
+Final Test,Vbias,,
+Final Test,WL(nm),1250,1350
+Final Test,error_WL(nm),-5.5,7.5
+Final Test,ndB_Width(nm),0,1
+Final Test,SMSR(dB),35,65
+Final Test,Sen,-20,-6
+Final Test,OMA_Sen,-20,-6
+Final Test,RxP1,,
+Final Test,DD_RxP1,,
+Final Test,dRxP1,-0.5,0.5
+Final Test,Rxp_Offset,-200,100
+Final Test,Rxp_Slope,5,25
+Final Test,LOS_A,-15,-11
+Final Test,LOS_D,-14,-10
+Final Test,LOS_Hys,0.5,5
+Final Test,DDMI_TxP,,4.5
+Final Test,dTxP,-0.5,0.5
+Final Test,Txp_Offset,-10000,10000
+Final Test,Txp_Slope,-1000,1000
+Final Test,Tops_room,0,3
+Final Test,Tops_off,0,3
+Final Test,RSSI,10,10000
+Final Test,I2C_Vcc,3.234,3.366
+Final Test,DDMI_Vcc,,
+Final Test,dVcc(%),-0.033,0.033
+Final Test,Vcc_Offset,-10000,10000
+Final Test,Vcc_Slope,-1000,1000
+Final Test,Case_Temp,30,40
+Final Test,DDMI_Temp,40,60
+Final Test,dTemp,-2.8,2.8
+Final Test,Tempoffset,-20,20
+Final Test,ICC(mA),1000,4400
+Final Test,HP_CP(W),4,14.5
+Final Test,Tx_Disable(dBm),-60,-15
+Switch Test,Vcc(V),3.13,3.47
+Switch Test,DMI_TX_Pwr(dBm),-2.9,4
+Switch Test,DMI_RX_Pwr(dBm),-2.9,4
+Switch Test,TxFault_Latched,0,0
+Switch Test,TxLOS_Latched,0,0
+Switch Test,TxLOL_Latched,0,0
+Switch Test,RxLOS_Latched,0,0
+Switch Test,RxLOL_Latched,0,0
+Switch Test,TxFault_Live,0,0
+Switch Test,TxLOS_Live,0,0
+Switch Test,TxLOL_Live,0,0
+Switch Test,RxLOS_Live,0,0
+Switch Test,RxLOL_Live,0,0
+Switch Test,link_status,0,0
+Switch Test,FEC_Uncorrected_CW,0,0
+Switch Test,PCS_FEC_CW_Error,0,0
+Switch Test,PCS_Alignment_Marker_Error,0,0
+Switch Test,SER_30,,1e-08
+Switch Test,Rx_Frames_Err,0,0
+Switch Test,Tx_Frames_Err,0,0
+Switch Test,linkflaps,,
+Switch Test,PreFEC_BER,0,1e-08
+Switch Test,Frameloss,0,0
+TP2/TP3 - RT,Temp,30,40
+TP2/TP3 - RT,TXP,-0.5,3.7
+TP2/TP3 - RT,ER,4,7
+TP2/TP3 - RT,TX Disable,-15,0
+TP2/TP3 - RT,TDECQ,0,2.8
+TP2/TP3 - RT,RLM,0,0.92
+TP2/TP3 - RT,OMA,-0.2,4.2
+TP2/TP3 - RT,OMA_TDECQ,-1.5,0
+TP2/TP3 - RT,SMSR,0,35
+TP2/TP3 - RT,SEN,-20,-6
+TP2/TP3 - RT,OMA_SEN,-20,-6
+TP2/TP3 - RT,LOSA,-15,-11
+TP2/TP3 - RT,LOSD,-14,-10
+TP2/TP3 - RT,LOSH,0.5,5
+TP2/TP3 - RT,dRXP,-2.5,2.5
+TP2/TP3 - RT,dTXP,-2.5,2.5
+TP2/TP3 - RT,dVCC,-0.1,0.1
+TP2/TP3 - RT,dTemp,-2.5,2.5
+TP2/TP3 - RT,DDMI Temp,30,40
+TP2/TP3 - RT,Mode hopping,-1,1
+TP2/TP3 - RT,Overshoot,0,15
+TP2/TP3 - RT,Undershoot,0,15
+TP2/TP3 - RT,DDMI Bias,30,400
+TP2/TP3 - RT,TDECQ_4.8E-6,0,4.3
+TP2/TP3 - RT,Total_TXP,-9000,9000
+TP2/TP3 - RT,TempOffset,-20,-6
+TP2/TP3 - LT,Temp,-4,0
+TP2/TP3 - LT,TXP,-0.5,3.7
+TP2/TP3 - LT,ER,4,7
+TP2/TP3 - LT,TX Disable,-15,0
+TP2/TP3 - LT,TDECQ,0,2.8
+TP2/TP3 - LT,RLM,0,0.92
+TP2/TP3 - LT,OMA,-0.2,4.2
+TP2/TP3 - LT,OMA_TDECQ,-1.5,0
+TP2/TP3 - LT,SMSR,0,35
+TP2/TP3 - LT,SEN,-20,-6
+TP2/TP3 - LT,OMA_SEN,-20,-6
+TP2/TP3 - LT,LOSA,-15,-11
+TP2/TP3 - LT,LOSD,-14,-10
+TP2/TP3 - LT,LOSH,0.5,5
+TP2/TP3 - LT,dRXP,-2.5,2.5
+TP2/TP3 - LT,dTXP,-2.5,2.5
+TP2/TP3 - LT,dVCC,-0.1,0.1
+TP2/TP3 - LT,dTemp,-2.5,2.5
+TP2/TP3 - LT,DDMI Temp,-4,0
+TP2/TP3 - LT,Mode hopping,-1,1
+TP2/TP3 - LT,Overshoot,0,15
+TP2/TP3 - LT,Undershoot,0,15
+TP2/TP3 - LT,DDMI Bias,30,400
+TP2/TP3 - LT,TDECQ_4.8E-6,0,4.3
+TP2/TP3 - LT,Total_TXP,-9000,9000
+TP2/TP3 - LT,TempOffset,-5,5
+TP2/TP3 - HT,Temp,70,74
+TP2/TP3 - HT,TXP,-0.5,3.7
+TP2/TP3 - HT,ER,4,7
+TP2/TP3 - HT,TX Disable,-15,0
+TP2/TP3 - HT,TDECQ,0,2.8
+TP2/TP3 - HT,RLM,0,0.92
+TP2/TP3 - HT,OMA,-0.2,4.2
+TP2/TP3 - HT,OMA_TDECQ,-1.5,0
+TP2/TP3 - HT,SMSR,0,35
+TP2/TP3 - HT,SEN,-20,-6
+TP2/TP3 - HT,OMA_SEN,-20,-6
+TP2/TP3 - HT,LOSA,-15,-11
+TP2/TP3 - HT,LOSD,-14,-10
+TP2/TP3 - HT,LOSH,0.5,5
+TP2/TP3 - HT,dRXP,-2.5,2.5
+TP2/TP3 - HT,dTXP,-2.5,2.5
+TP2/TP3 - HT,dVCC,-0.1,0.1
+TP2/TP3 - HT,dTemp,-2.5,2.5
+TP2/TP3 - HT,DDMI Temp,70,74
+TP2/TP3 - HT,Mode hopping,-1,1
+TP2/TP3 - HT,Overshoot,0,15
+TP2/TP3 - HT,Undershoot,0,15
+TP2/TP3 - HT,DDMI Bias,30,400
+TP2/TP3 - HT,TDECQ_4.8E-6,0,4.3
+TP2/TP3 - HT,Total_TXP,-9000,9000
+TP2/TP3 - HT,TempOffset,-10,2
+3TBER,RTTestTemp,30,40
+3TBER,RTBER1,0,1e-06
+3TBER,RTBER2,0,1e-06
+3TBER,RTBER3,0,1e-06
+3TBER,RTBER4,0,1e-06
+3TBER,RTBER5,0,1e-06
+3TBER,RTBER6,0,1e-06
+3TBER,RTdRXP,-2.5,2.5
+3TBER,LTTestTemp,-10,0
+3TBER,LTBER1,0,1e-06
+3TBER,LTBER2,0,1e-06
+3TBER,LTBER3,0,1e-06
+3TBER,LTBER4,0,1e-06
+3TBER,LTBER5,0,1e-06
+3TBER,LTBER6,0,1e-06
+3TBER,LTdRXP,-2.5,2.5
+3TBER,HTTestTemp,70,80
+3TBER,HTBER1,0,1e-06
+3TBER,HTBER2,0,1e-06
+3TBER,HTBER3,0,1e-06
+3TBER,HTBER4,0,1e-06
+3TBER,HTBER5,0,1e-06
+3TBER,HTBER6,0,1e-06
+3TBER,HTdRXP,-2.5,2.5

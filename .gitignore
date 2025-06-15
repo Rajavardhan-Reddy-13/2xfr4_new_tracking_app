@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+venvvenv/
+env/
+ENV/
+.venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Data / reports (uncomment to exclude if these contain sensitive data)
+# *.xlsx
+# spec_limits.txt
